@@ -147,23 +147,41 @@ k8-intelligent-log-analysis-mlops/
 │ ├── inference.py
 
 │ └── components/
+
 │
+
 ├── manifests/
+
 │ ├── loki/
+
 │ ├── grafana/
+
 │ ├── kubeflow/
+
 │ └── RBAC/
+
 │
+
 ├── dataset/
+
 │ └── sample-loki-logs.json
+
 │
+
 ├── notebooks/
+
 │ ├── eda.ipynb
+
 │ ├── model-dev.ipynb
+
 │
+
 ├── dashboard/
+
 │ └── grafana-json/
+
 │
+
 └── README.md ← (You are reading this file)
 
 
