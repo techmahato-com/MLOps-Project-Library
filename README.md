@@ -178,11 +178,9 @@ Includes dashboards to monitor:
                │
                ▼
  ┌─────────────┴─────────────────────────┐
- │ Observability: Prometheus / Grafana    │
- │ Logs: Loki / Alertmanager / Dashboards │
- └────────────────────────────────────────┘
-
-
+ │ Observability: Prometheus / Grafana   │
+ │ Logs: Loki / Alertmanager / Dashboards│
+ └───────────────────────────────────────┘
 
 ---
 
