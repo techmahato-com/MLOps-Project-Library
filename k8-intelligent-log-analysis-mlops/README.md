@@ -61,25 +61,25 @@ This project solves that challenge using **Machine Learning** trained on Kuberne
          └───────┬──────────┘
                  │ Pull Logs
                  ▼
-   ┌────────────────────────────┐
-   │ Kubeflow Pipeline (ML)     │
-   │ - Preprocessing            │
-   │ - Vectorization            │
-   │ - Model Training           │
-   │ - Prediction Pipeline      │
-   └─────────┬──────────────────┘
-             │ Output
-             ▼
+    ┌────────────────────────────┐
+    │ Kubeflow Pipeline (ML)     │
+    │ - Preprocessing            │
+    │ - Vectorization            │
+    │ - Model Training           │
+    │ - Prediction Pipeline      │
+    └─────────┬──────────────────┘
+              │ Output
+              ▼
     ┌────────────────────┐
     │ ML Model Output     │
     │ - Normal / Anomaly  │
     └─────────┬───────────┘
               │
               ▼
-┌────────────────────────────┐
-│ Grafana Dashboard          │
-│ Prometheus Metrics         │
-└────────────────────────────┘
+    ┌────────────────────────────┐
+    │ Grafana Dashboard          │
+    │ Prometheus Metrics         │
+    └────────────────────────────┘
 
 
 ---
