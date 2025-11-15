@@ -49,36 +49,6 @@ This repo is built specially for:
 
 # 🏗 Repository Structure
 MLOps-Project-Library/
-│
-├── project-1-intelligent-log-anomaly-detection/
-│ ├── src/
-│ ├── kubeflow/
-│ ├── manifests/
-│ ├── notebooks/
-│ └── README.md
-│
-├── project-2-ml-training-cicd/
-│ ├── github-actions/
-│ ├── pipeline/
-│ ├── src/
-│ └── README.md
-│
-├── project-3-ml-observability-stack/
-│ ├── prometheus/
-│ ├── grafana/
-│ ├── loki/
-│ └── README.md
-│
-├── project-4-kserve-real-time-inference/
-│ ├── manifests/
-│ ├── models/
-│ └── README.md
-│
-└── docs/
-├── architecture-diagrams/
-├── screenshots/
-└── notes/
-
 
 
 ---
@@ -177,10 +147,10 @@ Includes dashboards to monitor:
     └──────────┬───────────┘
                │
                ▼
- ┌─────────────┴─────────────────────────┐
- │ Observability: Prometheus / Grafana   │
- │ Logs: Loki / Alertmanager / Dashboards│
- └───────────────────────────────────────┘
+    ┌──────────┴─---────────────────────────┐
+    │ Observability: Prometheus / Grafana   │
+    │ Logs: Loki / Alertmanager / Dashboards│
+    └───────────────────────────────────────┘
 
 ---
 
