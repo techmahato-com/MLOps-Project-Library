@@ -135,11 +135,17 @@ Send alerts via:
 
 k8-intelligent-log-analysis-mlops/
 │
+
 ├── pipeline/
+
 │ ├── anomaly_pipeline.py
+
 │ ├── preprocessing.py
+
 │ ├── training.py
+
 │ ├── inference.py
+
 │ └── components/
 │
 ├── manifests/
